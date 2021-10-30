@@ -8,8 +8,9 @@ When download run `npm install`
 
 Run two instances of the application to different ports like this:
 
-Run `ng serve --port 4200` for a dev server. Navigate to `http://localhost:4200/`.
-Run `ng serve --port 4200` for a dev server. Navigate to `http://localhost:4300/`.
+Run `ng serve --port 4200` for a dev server and navigate to `http://localhost:4200/`.
+
+Run `ng serve --port 4200` for a dev server and navigate to `http://localhost:4300/`.
 
 The app will automatically reload if you change any of the source files.
 
@@ -19,7 +20,9 @@ Install [json-server](https://www.npmjs.com/package/json-server)
 
 Move to `/src/assets ` folder and start the json server with `run json-server --watch db.json`
 
-Angular application will reload if it detects any change in the files being watched inside assets folder. This allows to reload every time a new message is received.
+Angular application will reload if it detects any change in the files being watched inside assets folder.
+
+This allows to reload every time a new message is received.
 
 This will start the rest to the `http://localhost:3000/`
 
