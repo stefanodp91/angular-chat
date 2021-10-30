@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
+When download run `npm install`
+
 ## Client
 
 Run two instances of the application to different ports like this:
