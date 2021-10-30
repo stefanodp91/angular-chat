@@ -15,7 +15,7 @@ The app will automatically reload if you change any of the source files.
 
 ## Server
 
-Install json-server from `https://www.npmjs.com/package/json-server`
+Install [json-server](https://www.npmjs.com/package/json-server)
 
 Move to `/src/assets ` folder and start the json server with `run json-server --watch db.json`
 
@@ -23,7 +23,7 @@ Angular application will reload if it detects any change in the files being watc
 
 This will start the rest to the `http://localhost:3000/`
 
-Follow the `https://www.npmjs.com/package/json-server` to customize the server provider under `src/app/providers/db-service`
+Follow the [instructions](https://www.npmjs.com/package/json-server) to customize the server provider under `src/app/providers/db-service`
 
 ### Reset database
 
