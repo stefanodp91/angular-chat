@@ -1,0 +1,21 @@
+<!-- message available-->
+<div *ngIf="messages" class="d-flex flex-column w-100">
+  <ng-container *ngFor="let message of messages">
+    <div [class]="message?.sender === loggedUser?.id ? 'sender' : 'recipient'">
+      <span>{{ message?.text }}</span>
+    </div>
+  </ng-container>
+</div>
+
+<!-- any message available-->
+<div *ngIf="!messages">
+  <span>No messages </span>
+</div>
+
+<!-- input area-->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="d-flex flex-row">
+    <input id="inputField" type="text" formControlName="inputField" />
+    <button class="button" type="submit">Send</button>
+  </div>
+</form>
